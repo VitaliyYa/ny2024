@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+    background: linear-gradient(to bottom right, #2f1f1f, #1a1a1a);
+    color:  #fff;
+    min-height: 100vh; /* Установим минимальную высоту равной 100% высоты видимой области (viewport height) */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+
+h1 {
+    color: red;
+    font-size: 48px; /* Увеличьте размер шрифта */
+    text-decoration: underline;
+}
+
+p {
+    font-size: 24px; /* Увеличьте размер шрифта */
+    color: green;
+    margin-top: 20px;
+    animation: blink 1s infinite; /* Добавьте мигание с использованием CSS анимации */
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+img {
+    margin-top: 20px; /* Добавим отступ между поздравлением и изображением */
+    border: 10px solid; /* Добавим белую рамку толщиной 4px */
+    color: #fff
+    border-radius: 8px; /* Добавим скругление углов */
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
